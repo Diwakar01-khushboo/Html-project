@@ -1,0 +1,92 @@
+*{
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e1f72ba0-a2b3-4808-a2f9-4691377a83be/deres58-105de261-17bc-4655-8b4d-084a30dee4fc.png/v1/fill/w_1192,h_670,q_70,strp/anime_world_by_saiyanking02_deres58-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIwIiwicGF0aCI6IlwvZlwvZTFmNzJiYTAtYTJiMy00ODA4LWEyZjktNDY5MTM3N2E4M2JlXC9kZXJlczU4LTEwNWRlMjYxLTE3YmMtNDY1NS04YjRkLTA4NGEzMGRlZTRmYy5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.Nb0IPAc1IivMjzUCtyo9RsN-wnlEjN84oOX6MuBjJwI') no-repeat center center fixed;
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .login-box {
+      background: rgba(0, 0, 0, 0.75);
+      padding: 40px;
+      border-radius: 15px;
+      width: 350px;
+      color: #fff;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+      text-align: center;
+    }
+
+    .login-box h2 {
+      margin-bottom: 25px;
+      font-weight: 600;
+      font-size: 28px;
+      color: #ffcc00;
+    }
+
+    .input-box {
+      margin-bottom: 20px;
+      text-align: left;
+    }
+
+    .input-box label {
+      font-size: 14px;
+      margin-bottom: 5px;
+      display: block;
+      color: #ccc;
+    }
+
+    .input-box input {
+      width: 100%;
+      padding: 10px;
+      border: none;
+      border-radius: 8px;
+      outline: none;
+      font-size: 14px;
+    }
+
+    .btn {
+      background: #ffcc00;
+      color: #000;
+      padding: 12px;
+      border: none;
+      border-radius: 8px;
+      width: 100%;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #ffaa00;
+    }
+
+    .bottom-text {
+      margin-top: 15px;
+      font-size: 13px;
+      color: #aaa;
+    }
+
+    .bottom-text a {
+      color: #ffcc00;
+      text-decoration: none;
+    }
+
+   @media only screen and (max-width: 600px) {
+    .login-box {
+      background: rgba(0, 0, 0, 0.75);
+      padding: 40px;
+      border-radius: 15px;
+      width: 350px;
+      color: #fff;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+      text-align: center;
+    }
+   }
